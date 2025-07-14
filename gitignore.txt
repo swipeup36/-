@@ -1,0 +1,8 @@
+
+# Обычные файлы/папки, которые игнорируются
+*.log
+*.tmp
+.DS_Store
+node_modules/
+dist/
+.env
