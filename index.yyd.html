@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Магазин Инструментов</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      color: #f5f2f2;
+  background: linear-gradient(135deg, #130844, #3d4e60);
+      
+    }
+    .contacts a {
+  color: #ffffff;
+}
+.contacts a:hover {
+  color: #f8e405;
+}
+    header {
+      background-color: #90acbe;
+      color: rgb(249, 248, 248);
+      padding: 20px;
+      text-align: center;
+    }
+      header h1 {
+  font-size: 48px;
+}
+
+    nav {
+      background-color: #9ea2a4;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contacts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      background: rgb(42, 51, 226);
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #92979b;
+      color: rgb(251, 249, 249);
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Магазин Инструментов</h1>
+  <p>Профессиональный инструмент для дома и бизнеса</p>
+</header>
+
+<nav>
+  <a href="#about">О нас</a>
+  <a href="#services">Категории</a>
+  <a href="#contact">Контакты</a>
+</nav>
+
+<section id="about">
+  <h2>О нас</h2>
+  <p>Мы специализируемся на продаже качественного ручного, электро-бензо и строительного инструмента от ведущих брендов. У нас — широкий выбор, выгодные цены и консультации специалистов.</p>
+</section>
+
+<section id="services">
+  <h2>Наш ассортимент</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Аккумуляторная техника</h3>
+      <p>Шуруповёрты, гайковерты, аккумуляторы, зарядные устройства и пр.</p>
+      <img src="https://avatars.mds.yandex.net/i?id=65a868699a8e186329b64a33ffaed1920eaa2f44-3584141-images-thumbs&n=13" alt="Аккумуляторная техника" style="width:100%; border-radius: 8px; margin-top: 10px;">
+    </div>
+    <div class="card">
+      <h3>Электроинструмент</h3>
+      <p>Дрели, перфораторы, шлифмашины, шуруповерты и прочее.</p>
+      <img src="https://static.baza.farpost.ru/v/1625711684899_bulletin" alt="Электроинструмент" style="width:100%; border-radius: 8px; margin-top: 10px;">
+    </div>
+    <div class="card">
+      <h3>Бензоинструмент</h3>
+      <p>Бензопилы, триммеры, мотобуры, генераторы и другое.</p>
+      <img src="https://avatars.mds.yandex.net/i?id=b0fef84052d2cd0f814b2785f0899b9f8ae69a15-5192563-images-thumbs&n=13" alt="Бензоинструмент" style="width:100%; border-radius: 8px; margin-top: 10px;">
+    </div>
+    <div class="card">
+      <h3>Всё для сварки</h3>
+      <p>Сварочные аппараты, маски, электроды, кабели и комплектующие.</p>
+      <img src="https://avatars.mds.yandex.net/i?id=a4066066f4c1c256ec4f919a9a94904e24d9f350-4571838-images-thumbs&n=13" alt="Всё для сварки" style="width:100%; border-radius:8px; margin-top:10px;">
+    </div>
+    <div class="card">
+      <h3>Компрессорное оборудование</h3>
+      <p>Компрессоры, шланги, пневмоинструмент, ресиверы.</p>
+      <img src="https://avatars.mds.yandex.net/i?id=e02256d565e130e863a4386405b7481f816d8435-12159448-images-thumbs&n=13" alt="Компрессорное оборудование" style="width:100%; border-radius:8px; margin-top:10px;">
+    </div>
+    <div class="card">
+      <h3>Ручной инструмент</h3>
+      <p>Отвертки, молотки, ключи, стамески, пилы и пр.</p>
+      <img src="https://avatars.mds.yandex.net/i?id=8fcd4e9654ff3a19988789f8a07aba24fcdf8a12-4714546-images-thumbs&n=13" alt="Ручной инструмент" style="width:100%; border-radius:8px; margin-top:10px;">
+    </div>
+    <div class="card">
+      <h3>Прокат инструмента</h3>
+      <p>Аренда профессионального инструмента по доступной цене.</p>
+      <img src="прокат.jpg" alt="Прокат инструмента" style="width:100%; border-radius:8px; margin-top:10px;">
+    </div>
+    <div class="card">
+      <h3>Ремонт инструмента</h3>
+      <p>Диагностика и профессиональный ремонт электрического и бензоинструмента.</p>
+      <img src="ремонт.jpg" alt="Ремонт инструмента" style="width:100%; border-radius:8px; margin-top:10px;">
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Связаться с нами</h2>
+  <div class="contacts">
+    <div class="card">
+      <p><strong>Адрес:</strong> Колхозный проезд, 6, Кубинка, Одинцовский городской округ, Московская область, 143070</p>
+      <p><strong>На карте:</strong> <a href="https://yandex.ru/maps/21625/kubinka/?ll=36.691530%2C55.574814&mode=poi&poi%5Bpoint%5D=36.691317%2C55.575084&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D225583326574&z=18.96">Яндекс карты</a></p>
+      <p><strong>Телефон:</strong> <a href="https://wa.me/79852699502" target="_blank">+7 (985) 269-95-02 (WhatsApp)</a></p>
+      <p><strong>Email:</strong> <a href="mailto:levko215@yandex.ru">levko215@yandex.ru</a></p>
+      <p><strong>График:</strong> Пн–Сб, 9:00–18:00, Вс 9:00–17:00</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Инструменты. Все права защищены.
+</footer>
+
+</body>
+</html>
